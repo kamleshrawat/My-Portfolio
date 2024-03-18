@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Kamlesh Rawat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e12ed398cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>B.Tech(CSE) Student</p>
+                <h1>Hi, I'm <span>Kamlesh</span><br> Rawat From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p> I am a final year undergraduate student of the Department of Computer Science and Engineering,
+                        Graphic Era Hill University, Uttarakhand, India. I was born in Haldwani, Uttarakhand.<br>I was
+                        fortunate enough to know from a young age that I wanted to be an engineer. The engineering way
+                        of thinking came naturally to me. What I didn't know was what type of engineer I wanted to be.
+                        When push came to shove, I chose Software Engineering.<br><br>As a final year B.Tech Computer
+                        Science student, I am passionate about exploring the dynamic realm of technology and its
+                        applications. Throughout my academic journey, I have delved deep into various aspects of
+                        computer science, honing my skills in programming, software development, and system design. With
+                        a keen interest in emerging technologies, I am constantly seeking opportunities to expand my
+                        knowledge and stay updated with the latest industry trends. My goal is to leverage my expertise
+                        to contribute meaningfully to the field of technology and innovate solutions that address
+                        real-world challenges.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>Programming Languages</b></span><br>C++, C, Java, Python</li>
+                            <li><span><b>Development</b></span><br>HTML, CSS, Javascript, PHP, SQL</li>
+                            <li><span><b>Tools and Frameworks</b></span><br>ReactJs, Bootstrap, Power BI, MS Excel, Vs
+                                Code, Latex</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><b>Oct, 2023 - Nov, 2023</b></span><br>Artificial Intelligence Intern</li>
+                            <li><span><b>Aug, 2023 - Sep, 2023</b></span><br>Full Stack Web Development Intern</li>
+                            <li><span><b>Mar, 2023 - Apr, 2023</b></span><br>Web Development and Desgining Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>2020 - Current</b></span><br>B.Tech in <i>Computer Science</i></li>
+                            <li><span><b>2019</b></span><br>12th(PCM with <i>Computer Science</i>), <i>C.B.S.E</i></li>
+                            <li><span><b>2017</b></span><br>10th, <i>C.B.S.E</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> "Offering bespoke web design solutions that blend creativity with functionality. With a keen eye
+                        for detail and a focus on user experience, I craft visually stunning websites tailored to meet
+                        the unique needs of each client. From elegant layouts to responsive designs, I specialize in
+                        creating captivating online experiences that leave a lasting impression."</p>
+                    <a href="https://www.interaction-design.org/literature/topics/web-design" target="_blank">Learn
+                        more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"Specializing in UI/UX design, I craft intuitive and visually appealing digital experiences. With
+                        a keen eye for detail and a focus on user-centric design principles, I transform complex
+                        concepts into elegant, user-friendly interfaces. My passion lies in creating designs that not
+                        only look great but also enhance user satisfaction and engagement."</p>
+                    <a href="https://flatironschool.com/blog/what-is-ux-ui-design/" target="_blank">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Dashboard Design</h2>
+                    <p>"Proficient in creating visually appealing and insightful dashboards using PowerBI. Expertise in
+                        data visualization, interactive reporting, and analytics to drive informed decision-making.
+                        Demonstrated ability to transform complex data into clear and actionable insights."</p>
+                    <a href="https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards"
+                        target="_blank">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Flipkart Clone</h3>
+                        <p>A Web Application that provides users with an authentic real-time buying and selling
+                            experience by using MERN stack technology.</p>
+                        <a href="https://github.com/kamleshrawat/Flipkart-Clone.git" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Road Accident Analysis</h3>
+                        <p>To analyze road accident data and identify patterns and trends that can help improve road
+                            safety. Imported the data into Power BI and cleaned it to ensure it was accurate and ready
+                            for analysis.</p>
+                        <a href="https://github.com/kamleshrawat/Road-Accident-Analysis.git" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Chatting Application</h3>
+                        <p>Designed a simple Chatting Application using Java to simulate the common functions using
+                            socket programming. This application allows two users to communicate with each other over a
+                            network.</p>
+                        <a href="https://github.com/kamleshrawat/Chatting-Application.git" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png" alt="">
+                    <div class="layer">
+                        <h3>Duniya Dekho</h3>
+                        <p>A responsive Travelling Website in which you can book hotels,flights and travel guides.
+                            Employing HTML, CSS, and JavaScript for frontend design, and PHP and MySQL for backend
+                            functionality, I ensured a seamless user experience.</p>
+                        <a href="https://github.com/kamleshrawat/Duniya-Dekho.git" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-5.png" alt="">
+                    <div class="layer">
+                        <h3>Travelling Form</h3>
+                        <p>A simple Travelling Form for our college trip using HTML, CSS, PHP and MySQL.</p>
+                        <a href="https://github.com/kamleshrawat/Travelling-Form.git" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-6.jpg" alt="">
+                    <div class="layer">
+                        <h3>AI based Object Detector</h3>
+                        <p>An AI-based object detector utilizes advanced algorithms like YOLO to accurately identify and
+                            classify objects within images or videos in real-time. By harnessing the power of artificial
+                            intelligence, this project enhances automation and efficiency in various domains such as
+                            surveillance, autonomous vehicles, and industrial quality control.</p>
+                        <a href="https://github.com/kamleshrawat/AI-Based-Object-Detector.git" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/kamleshrawat?tab=repositories" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kamleshrawat001ntl@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91(0) 8958687422</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/kamleshrawat" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kamlesh-rawat/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Kamlesh Rawat_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Kamlesh. Made with <i class="fa-solid fa-heart"></i> by Kamlesh Rawat<br><br>" Life is a
+                Tragedy for those who Feel, and a Comedy for those who Think."
+                : Horace Walpole</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxFjHErbA6L-DwgCpmf1ME6wJfENF6uzIH_XW2EQSkU4UehPweyD0gPXr778jy4qQKM/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
